@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멍한 하루</title>
+    <style>
+        .title {
+            display: inline;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            font-size: x-large;
+        }
+        .title h1 {
+            padding-top: 10px;
+            padding-bottom: 0%;
+        }
+        h1 a:link, h1 a:visited {
+            text-decoration: none;
+            color: black;
+        }
+        h1 a:hover {
+            font-size: 125%;
+        }
+        .click {
+            border-top: solid 1px gray;
+            border-bottom: solid 1px gray;
+        }
+        .click ul {
+            padding: 0px 0px;
+            text-align: center;
+        }
+        .click ul li {
+            display: inline;
+            text-transform: uppercase;
+            padding: 0 140px;
+            letter-spacing: 3px;
+        }
+        .click ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        .main {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            height: 900px;
+            background: url(dog\ main.jpg) 0 0% no-repeat;
+            background-size: 100%;
+            animation: animate_background 8s linear;
+        }
+        .main h2 {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-weight: 500;
+            padding-top: 70px;
+        }
+        .main h2 span {
+            display: block;
+            font-size: 20px;
+        }
+        .info {
+            text-align: center;
+        }
+        .info a {
+            display: inline;
+            text-transform: uppercase;
+            padding: 0 140px;
+            text-decoration: none;
+            color: black;
+            border: solid 1px gray;
+            padding: 5px 5px;
+        }
+        .info a:hover {
+            border: solid 2px black;
+        }
+        .menu {
+            text-align: center;
+            width: 100%;
+            height: 510px;
+        }
+        .d1, .d2, .h1, .h2{
+            float: left;
+            width: 360px;
+            height: 310px;
+            border: solid 1px gray;
+            margin: 40px 2.9%;
+        }
+        .tool {
+            clear: both;
+            text-align: center;
+            width: 100%;
+            height: 510px;
+        }
+        .t1, .t2, .t3 {
+            float: left;
+            width: 360px;
+            height: 310px;
+            border: solid 1px gray;
+            margin: 40px 5%;
+        }
+        .tool a {
+            text-align: center;
+            width: 100%;
+            height: 510px;
+        }
+        .menu a, .tool a {
+            clear: both;
+            text-align: center;
+            display: inline;
+            text-transform: uppercase;
+            padding: 0 140px;
+            text-decoration: none;
+            color: black;
+            border: solid 1px gray;
+            padding: 5px 5px;
+            margin: 10px 0px;
+        }
+        .menu a:hover {
+            border: solid 2px black;
+        }
+        .footer {
+            clear: both;
+            text-align: center;
+            border-top: solid 1px gray;
+        }
+        @keyframes animate_background {
+            0% {background-position: 0% 0%;}
+            50% {background-position: 0% 100%;}
+            100% {background-position: 0% 0%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1 id="top"><a href="index.html"><b>멍</b>한 하루</a></h1>
+    </div>
+    <div class="click">
+        <ul>
+            <li><a href="info.html"><b>정보</b></a></li>
+            <li><a href="menu.html"><b>메뉴</b></a></li>
+            <li><a href="tool.html"><b>용품</b></a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>애견 동반 카페 <span><strong>멍</strong>한 하루</span> </h2>
+    </div><br>
+    <div class="info">
+        <h2>애견 카페 '멍한 하루'입니다!</h2>
+        <p>타인의 시선에 방해받지 않기를 원하시는 분!</p>
+        <p>애견과 소중한 시간을 보내고 싶으신 분!</p>
+        <p>애견을 기르지 않지만 체험하고 싶으신 분!</p>
+        <p>'멍한 하루'에 어서오세요!</p>
+        <a href="info.html"><b>정보 더보기</b></a>
+    </div><br>
+    <hr>
+    <div class="menu">
+        <h2>'멍한 하루'의 메뉴입니다!</h2>
+        <p>대표 반려동물 간식 2종과 음료입니다!</p>
+        <div class="d1">
+            <img src="dog food 3.jpg" alt="No Image" width="360" height="260">
+            <p>오리고기 큐브</p>
+        </div>
+        <div class="d2">
+            <img src="dog food 4.jpg" alt="No Image" width="360" height="260">
+            <p>닭가슴살 육포</p>
+        </div>
+        <div class="h1">
+            <img src="latte.jpg" class="No Image" width="360" height="260">
+            <p>카페라떼</p>
+        </div>
+        <div class="h2">
+            <img src="lemonade.jpg" alt="No Image" width="360" height="260">
+            <p>레몬에이드</p>
+        </div>
+        <a href="menu.html"><b>메뉴 더보기</b></a>
+    </div><br>
+    <hr>
+    <div class="tool">
+        <h2>'멍한 하루'에서 구매하실 수 있는 용품입니다!</h2>
+        <p>사료, 장난감, 텀블러 등 있습니다!</p>
+        <div class="t1">
+            <img src="simple food 1.jpg" alt="No Image" width="360" height="260">
+            <p>사료</p>
+        </div>
+        <div class="t2">
+            <img src="tool 2.jpg" alt="No Image" width="360" height="260">
+            <p>장난감</p>
+        </div>
+        <div class="t3">
+            <img src="tool 3.jpg" class="No Image" width="360" height="260">
+            <p>텀블러</p>
+        </div>
+        <a href="tool.html"><b>용품 더보기</b></a>
+    </div><br>
+    <div class="footer">
+        <pre>작성자: 멍한 하루                    주소: 경남 김해                   이메일: dogday@gmail.com</pre>
+    </div>
+</body>
+</html>

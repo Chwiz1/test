@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멍한 하루/메뉴</title>
+    <style>
+        .title {
+            display: inline;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            font-size: x-large;
+        }
+        .title h1 {
+            padding-top: 10px;
+            padding-bottom: 0%;
+        }
+        h1 a:link, h1 a:visited {
+            clear: both;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+        h1 a:hover {
+            font-size: 125%;
+        }
+        .menu {
+            border-top: solid 1px gray;
+            border-bottom: solid 1px gray;
+        }
+        .menu ul {
+            padding: 0px 0px;
+            text-align: center;
+        }
+        .menu ul li {
+            display: inline;
+            text-transform: uppercase;
+            padding: 0 140px;
+            letter-spacing: 3px;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        .dfood, .hdrink {
+            text-align: center;
+            width: 80%;
+            margin-left: 10%;
+        }
+        .d1, .d2, .d3, .d4{
+            float: left;
+            width: 400px;
+            height: 400px;
+            border: solid 1px gray;
+            margin-left: 3.25%;
+            margin-right: 3.25%;
+            margin-bottom: 40px;
+        }
+        .dandd {
+            clear: both;
+            width: 100%;
+            padding: 20px 0px;
+        }
+        .h1, .h2, .h3, .h4, .h5 {
+            float: left;
+            width: 400px;
+            height: 400px;
+            border: solid 1px gray;
+            margin-left: 3.25%;
+            margin-right: 3.25%;
+            margin-bottom: 40px;
+        }
+        .back {
+            text-align: center;
+            clear: both;
+        }
+        .footer {
+            clear: both;
+            text-align: center;
+            border-top: solid 1px gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1 id="top"><a href="index.html"><b>멍</b>한 하루</a></h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="info.html"><b>정보</b></a></li>
+            <li><a href="menu.html"><b>메뉴</b></a></li>
+            <li><a href="tool.html"><b>용품</b></a></li>
+        </ul>
+    </div>
+    <div class="dfood">
+        <h2>강아지 간식</h2><br>
+        <div class="d1">
+            <img src="dog food.jpg" class="No Image" width="400" height="300">
+            <p><b>칠면조 영양간식</b></p>
+            <p>칠면조 고기로 만든 영양간식 입니다. 우울증에 도움이 되고, 알러지프리 음식 입니다.</p>
+        </div>
+        <div class="d2">
+            <img src="dog food2.jpg" alt="No Image" width="400" height="300">
+            <p><b>수제 오리스틱</b></p>
+            <p>오리고기로 만든 오리스틱 입니다. 발육촉진, 스트레스 해소, 치아형성에 도움을 줍니다.</p>
+        </div>
+        <div class="d3">
+            <img src="dog food 3.jpg" alt="No Image" width="400" height="300">
+            <p><b>오리고기 큐브</b></p>
+            <p>오리고기로 만든 큐브형 간식 입니다. 모질건강과 성장발육, 영양보충과 건강증진에 도움을 줍니다.</p>
+        </div>
+        <div class="d4">
+            <img src="dog food 4.jpg" alt="No Image" width="400" height="300">
+            <p><b>닭가슴살 육포</b></p>
+            <p>신선한 닭가슴살을 손질하여 만든 육포 입니다. 고단백 저지방 간식으로 기호성이 뛰어납니다.</p>
+        </div>
+    </div><br>
+    <div class="hdrink">
+        <h2 class="dandd">음료 및 디저트</h2><br>
+        <div class="h1">
+            <img src="latte.jpg" class="No Image" width="400" height="300">
+            <p><b>카페라떼</b></p>
+            <p>따뜻한 카페라떼 입니다.</p>
+        </div>
+        <div class="h2">
+            <img src="herbal tea.jpg" alt="No Image" width="400" height="300">
+            <p><b>허브차</b></p>
+            <p>따뜻한 허브차 입니다.</p>
+        </div>
+        <div class="h3">
+            <img src="lemonade.jpg" alt="No Image" width="400" height="300">
+            <p><b>레몬에이드</b></p>
+            <p>시원한 레몬에이드 입니다.</p>
+        </div>
+        <div class="h4">
+            <img src="cookie.jpg" alt="No Image" width="400" height="300">
+            <p><b>쿠키</b></p>
+            <p>바삭한 쿠키 입니다.</p>
+        </div>
+        <div class="h5">
+            <img src="muffin.jpg" alt="No Image" width="400" height="300">
+            <p><b>머핀</b></p>
+            <p>푹신한 머핀 입니다.</p>
+        </div>
+    </div><br>
+    <div class="back">
+        <h1 id="top"><a href="index.html"><b>돌아가기</a></h1>
+    </div>
+    <div class="footer">
+        <pre>작성자: 멍한 하루                   주소: 경남 김해                    이메일: dogday@gmail.com</pre>
+    </div>
+</body>
+</html>
